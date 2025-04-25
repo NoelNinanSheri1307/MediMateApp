@@ -1,3 +1,65 @@
+# 🩺 Medimate - Your Smart Medicine Management Assistant
+
+Medimate is a web-based application that helps users efficiently manage their daily medicine intake and healthcare schedule. It is designed to assist people—especially the elderly, patients with chronic illnesses, and caregivers—in organizing their medications and tracking their health routines.
+
+---
+
+## 🚩 Problem Statement
+
+Medication non-adherence is a significant issue globally, often due to forgetfulness, lack of reminders, or poor management of prescriptions. Missing medications can result in deteriorated health, delayed recovery, or complications, especially for the elderly and patients with chronic illnesses.
+
+**Medimate** addresses this gap by providing:
+- A personalized medicine scheduling system
+- Integration with Google Calendar for automated reminders
+- A centralized health profile for quick access to personal health data
+
+---
+
+## 🎯 Objective
+
+To create an intuitive and smart medicine reminder app using modern web technologies that supports:
+- Real-time scheduling
+- Easy user access via Google sign-in
+- Integration with Google Calendar for daily medicine alerts
+
+---
+
+## 🚀 Features
+
+### ✅ Must-Have Features
+- 🔐 **Google Sign-In Authentication** (via Firebase)
+- 👤 **User Health Profile**: Name, Age, Weight, Medical Conditions
+- 💊 **Medicine Management**: Add, View, Edit medications
+- 📅 **Daily Schedule Display**: Integrated with Google Calendar
+- 👨‍💻 **About Developer** section
+- 🔄 **Realtime Sync** using Firebase Realtime Database
+
+### ✨ Nice-to-Have Features (In Progress or Future Scope)
+- ⏰ **Google Calendar Reminder Integration**
+- 🕒 **Medicine History Log** (Mark taken/skipped)
+- 🌙 **Dark Mode Toggle**
+- 📍 **Nearby Pharmacies Finder** (Google Maps API)
+
+---
+
+## 🧱 Tech Stack
+
+| Category       | Technology                     |
+|----------------|--------------------------------|
+| Frontend       | React.js, Tailwind CSS         |
+| Backend        | Firebase Realtime Database     |
+| Auth           | Firebase Authentication (Google Sign-In) |
+| APIs           | Google Calendar API, Google Maps API |
+| Routing        | React Router DOM               |
+| Tools          | VS Code, Postman (optional), GitHub, Figma |
+
+---
+
+## 📂 Folder Structure (Simplified)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
