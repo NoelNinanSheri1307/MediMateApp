@@ -1,0 +1,53 @@
+
+*
+{
+    font-family: Footlight MT Light;
+}
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #525050;
+    min-height: 100vh;
+  }
+  
+  .about-box {
+    background-color: #131212;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    color:white;
+    max-width: 700px;
+  }
+  
+  .about-heading {
+    font-size: 32px;
+    color: #cc0000;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .about-para {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #f8f6f6;
+  }
+  
+  .about-desc {
+    font-size: 17px;
+    margin-top: 25px;
+    line-height: 1.6;
+    color: #fdfdfd;
+  }
+  
+  .about-box a {
+    color: #cc0000;
+    text-decoration: none;
+  }
+  
+  .about-box a:hover {
+    text-decoration: underline;
+  }
+  

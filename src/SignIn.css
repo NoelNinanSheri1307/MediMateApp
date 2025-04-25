@@ -1,0 +1,69 @@
+*{
+    font-family: 'Footlight MT Light',sans-serif;
+}
+.sign-in-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(rgba(232, 245, 233, 0.5), rgba(232, 245, 233, 0.5)),
+              url(../src/assets/signinbackground.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 30px;
+  color: #2e7d32;
+}
+
+.top-content {
+  margin-bottom: auto;
+}
+
+.sign-in-button {
+  margin: 40px 0;
+}
+
+  
+  
+  .app-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:azure;
+  }
+  
+  .intro-text {
+    max-width: 600px;
+    font-size: 1.2rem;
+    margin-bottom: 16px; /* Reduced from 30px */
+    color: #56ef5e;
+    line-height: 1.6;
+  }
+  
+  .sign-in-button {
+    margin-top: 10px;  /* Add this to avoid stacking too much space */
+    margin-bottom: 10px;
+    background-color: #2e7d32;
+    color: white;
+    width: 200px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  
+  .sign-in-button:hover {
+    background-color: #1b5e20; /* Even darker green */
+  }
+  
+  .footer-text {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: white; /* Medium green */
+  }
+  
+  
